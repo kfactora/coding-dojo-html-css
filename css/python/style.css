@@ -1,0 +1,275 @@
+*{
+    outline: px dotted black;
+    margin:
+}
+.wrapper{
+    background-color: #1569C7;
+    min-height: 600px;
+    width: 970px;
+    color: green;
+}
+.header{
+    background-color: grxs;
+    min-height: 80px;
+    outline: px dotted black;
+}
+.img{
+    outline: px dotted black;
+    display: inline-block;
+    vertical-align: top;
+}
+.img img{
+    height: 80px;
+    width: 300px;
+}
+.corner{
+    background-color: rd;
+    min-height: 10px;
+    display: inline-block;
+    margin: 0px 0px 0px 400px;
+}
+.up{
+    background-color: grey;
+    display: block;
+    width: 230px;
+    height: 50px;
+    border-radius: 5px;
+}
+.work{
+    background-color: re;
+    display: inline-block;
+    min-height: 80px;
+    vertical-align: top;
+}
+.text{
+    background-color: orang;
+    min-height: 5px;
+    width: 200px;
+    display: inline-block;
+    color: white;
+    font-size: 10px;
+    margin: 0px 0px 0px 65px;
+}
+.text a{
+    color: gold;
+}
+.up a{
+    margin: 0px;
+}
+.search{
+    display: inline-block;
+    vertical-align: top;
+    height: 50px;
+    width: 250px;
+    padding: 15px 0px 0px 30px;
+    margin-bottom: 10px;
+}
+.search button{
+    display: inline-block;
+    color: white;
+    background-color: darkblue;
+}
+
+
+
+
+.nav{
+    background-color: ;
+    min-height: 60px;
+}
+.navy{
+    background-color: #659EC7;
+    min-height: 40px;
+    margin: 0 auto;
+    border-radius: 5px;
+    text-align: center;
+    width: 850px;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+}
+.nav a{
+    background-color: #659EC7;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 15pt;
+    color: white;
+    margin-top: 10px;
+    margin-left: 35px;
+    padding-right: 10px;
+    text-align: center;
+}
+
+
+
+.top{
+    background-color: ;
+    max-height: 230px;
+    display: block;
+    width: 970px;
+}
+.docs{
+    background-color: ;
+    min-height: 200px;
+    display: inline-block;
+    width: 250px;
+    font-size: 13px;
+    text-align: center;
+    list-style-position: inside;
+    padding-top: 15px;
+    line-height: 20px;
+    color: yellow;
+    text-decoration: none;
+}
+.docs a{
+    color: white;
+}
+.body{
+    background-color: ;
+    display: inline-block;
+    width: 650px;
+    margin-left: 7.5px;
+    vertical-align: top;
+    max-height: 240px;
+}
+.first{
+    background-color: ;
+    min-height: 80px;
+    width: 650px;
+}
+.first p{`
+    padding: 7px;
+    font-size: 12px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 0px;
+    color: white;
+    margin-bottom: 0px;
+}
+.second{
+    background-color: ;
+    min-height: 150px;
+    width: 650px;
+    vertical-align: top;
+}
+.second p{
+    text-align: center;
+    font-style: italic;
+    font-size: 15px;
+    color: gold;
+    line-height: 8px;
+}
+.second h4{
+    text-align: center;
+    text-decoration: none;
+    font-size: 13px;
+    color: white;
+    line-height: 0px;
+}
+
+
+
+.middle{
+    background-color: white;
+    max-height: 160px;
+    border-top: 1px solid black; 
+    border-bottom: 1px solid black;
+    padding-left: 50px;
+}
+.left{
+    background-color: ;
+    min-height: 180px;
+    display: inline-block;
+    width: 400px;
+    margin: 10px 5px 10px 10px;
+    border-top: 2px solid #659EC7;
+    vertical-align: top;
+}
+.left h5{
+    padding: 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    color: black;
+}
+.left p{
+    padding-left: 50px; 
+    padding-right: 50px;
+    font-size: 12px;
+    margin-top: 0px;
+    text-align: center;
+    color: black
+}
+.left ul{
+    font-size: 12px;
+    padding-left: 120px;    
+    margin: 0px;
+    color: black;
+}
+.left a{
+    color: skyblue;
+}
+.right{
+    background-color: ;
+    min-height: 180px;
+    display: inline-block;
+    width: 400px;
+    margin-left: 5px;
+    margin: 10px 10px 10px 5px;
+    border-top: 2px solid #659EC7;
+    vertical-align: top;
+}
+.right h5{
+    padding: 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    color: black;
+}
+.right p{
+    padding-left: 50px; 
+    padding-right: 50px;
+    font-size: 12px;
+    margin-top: 0px;
+    text-align: center;
+    color: black;
+}
+.right ul{
+    font-size: 12px;
+    padding-left: 120px;    
+    margin: 0px;
+    color: black;
+}
+.right a{
+    color: skyblue;
+}
+.bottom{
+    background-color: ;
+    min-height: 50px;
+    margin: 0 auto;
+    width: 480px;
+    padding-top: 20px;
+}
+.bottom a{
+    display: inline-block;
+    width: 150px;
+    height: 20px;   
+    text-decoration: none;
+    margin: 0 auto;
+    vertical-align: center;
+    padding-top: 10px;
+    padding-left: 7px;
+    color: white; 
+    font-size: 14px;
+}
+.bottom p{
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    font-size: 10px;
+}
+
+
+
+
+
+
