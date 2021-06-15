@@ -1,0 +1,260 @@
+*{
+    outline: 0px dotted black;
+}
+.wrapper{
+    /*background-color: green;*/
+    min-height: 500px;
+    width: 970px;
+}
+
+
+
+.header{
+    max-height: 100px;
+    background-color: white;
+}
+.header img{
+    height: 60px;
+    width: 60px;
+    display: inline-block;
+    vertical-align: top;
+}
+.header h1{
+    min-height: 50px;
+    width: 200px; 
+    display: inline-block;
+    vertical-align: top;
+    margin: 0px;
+    text-align: center;
+    padding: 10px 0px 0px 0px;
+}
+.header h1 span{
+    color: blue;
+}
+#world{
+    background-color: blue;
+    min-height: 20px;
+    margin:0px;
+    color: white;
+    padding: 0px 0px 0px 15px;
+}
+
+
+/* START OF SIDEBAR */
+
+.sidebar{
+    background-color: white;
+    min-height: 500px;
+    width: 200px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 0px 0px 0px 5px;
+}
+.sidebar p{
+    padding: 0px 5px 0px 5px;
+    margin: 15px 0px 10px 0px
+    font-weight: bold;
+}
+.sidebar p span{
+    color: red;
+}
+.sidebar p a{
+    text-decoration: none;
+    color: blue;
+}
+#blue{
+    background-color: blue;
+    color: white;
+    width: 160px;
+    height: 25px;
+    margin: 0px 0px 0px 16px;
+    border-radius: 5px;
+}
+#orange{
+    background-color: orange;
+    color: white;
+    width: 160px;
+    height: 25px;
+    margin: 0px 0px 0px 16px;
+    border-radius: 5px;
+}
+.line{
+    min-height: 20px;
+    border-bottom: .5px solid black;
+}
+.ninja{
+    background-image: url("file:///Users/karlfactora/Desktop/images/ad_background.png");
+    width: 160px;
+    height: 225px;
+    margin: 15px 0px 0px 16px;
+}
+.ninja h3{
+    padding: 10px 0px 0px 0px;
+    text-align: center;
+    color: white;
+    margin: 0px 0px 0px 0px;
+}
+.ninja img{
+    height: 80px; 
+    width: 60px;
+    vertical-align: top;
+    margin: 0px 50px 0px 50px;
+}
+#learn{
+    background-color: skyblue;
+    color: white;
+    width: 130px;
+    height: 25px;
+    margin: 0px 0px 0px 16px;
+    border-radius: 5px;
+}
+
+/* START OF BODY */
+
+.body{
+    /*background-color: grey;*/
+    min-height: 500px;
+    width: 750px;
+    display: inline-block;
+    vertical-align: top;
+}
+.top{
+    background-color: white;
+    min-height: 50px;
+    vertical-align: top;
+    margin: 0px 10px 0px 10px;
+}
+
+/* LEFT SIDE OF TOP */
+.topleft{
+    display: inline-block;
+    vertical-align: top;
+    width: 490px;
+}
+.topleft img{
+    max-height: 15px; 
+    width: 15px;
+    margin: 5px 0px 0px 5px;
+    vertical-align: top;
+}
+.topleft a{
+    margin: 10px 0px 0px 0px;
+    text-decoration: none;
+    color: blue;
+    vertical-align: top;
+}
+
+
+/*RIGHT SIDE OF TOP*/
+#phone{
+    display: inline-block;
+    vertical-align: top;
+    height: 50px;
+    width: 50px;
+    margin-top: 7px;
+}
+.topright{
+    min-height: 65px;
+    width: 180px;
+    display: inline-block;
+
+}
+#date{
+    margin: 0px 0px 0px 0px;
+    font-size: 12px;
+    text-align: center;
+}
+.topright h1{
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+}
+#international{
+    margin: 0px 0px 0px 0px;
+    font-size: 12px;
+    text-align: center;
+}
+
+
+/* BOTTOM OF BODY */
+.bottom{
+    min-height: 50px;
+    margin: 0px 0px 0px 0px;
+    border-top: 1px solid black;
+}
+.bottom h3{
+    margin: 0px 0px 0px 0px;
+    color: blue;
+}
+.bottom p{
+    margin: 0px 0px 0px 0px;
+    font-size: 12px;
+}
+.bottom p a{
+    text-decoration: none;
+    color: skyblue;
+}
+.bottom span{
+    font-weight: bold;
+}
+.bottom ul{
+    margin: 5px 0px 0px 0px;
+}
+.bottom ul li{
+    font-size: 12px;
+}
+.bottom ul li a{
+    text-decoration: none;
+    color: skyblue;
+}
+
+
+/* CLIENT PICTURE */
+.client{
+
+}
+.client img{
+    height: 110px;
+    width: 300px;
+    margin: 20px 0px 5px 220px;
+}
+
+
+/* DOWN OF BODY */
+.bottom ol{
+    margin: 5px 0px 10px 0px;
+}
+.bottom ol li{
+    font-size: 12px;
+}
+.bottom ol li a{
+    text-decoration: none;
+    color: skyblue;
+}
+
+
+/* BIG */
+.big{
+    min-height: 50px;
+    border-top: 3px solid blue;
+    border-left: 3px solid blue;
+    border-right: 3px solid blue;
+}
+.big img{
+    height: 100px; 
+    width: 100px;
+    display: inline-block;
+    margin: 10px 0px 0px 10px;
+}
+.bigright{
+    display: inline-block;
+    width: 600px;
+    vertical-align: top;
+}
+.bigright h3{
+    margin: 10px 0px 0px 0px;
+}
+.bigright p{
+    margin: 5px 0px 5px 0px;
+}
+
+\
